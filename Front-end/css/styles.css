@@ -3,12 +3,14 @@
     padding: 0;
 }
 .main-container{
-   background-color: cornsilk;
+   /* background-color: cornsilk; */
+   overflow: hidden;
+
 }
 /* top */
 .header-container{
     height: 80px;
-    background-color: aqua;
+    /* background-color: aqua; */
     border: black;
     overflow: hidden;
 }
@@ -20,7 +22,7 @@
 
 .space-top{
     padding: 15px;
-    width: 950px;
+    width: 900px;
     height: 54px;
     float:left;
 }
@@ -36,17 +38,20 @@
     float: left;
     list-style-type: none;
 }
+.item-in-top-menu img{
+    border-radius: 50%;
+}
 .item-in-top-menu a{
     text-decoration: none;
 }
 .item-in-top-menu a p{
     color: gray;
-    font-size: 30px;
+    font-size: 25px;
     padding-top: 10px;
 }
 /* left menu */
 .side-menu{
-    background-color: cadetblue;
+    /* background-color: cadetblue; */
     margin-top: 10px;
     padding: 40px 20px;
     width: 270px;
@@ -87,12 +92,89 @@ li {
 }
 
 .side-menu ul li .menu-group-title p{
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 500;
     position: relative;
+    color: grey;
 }
 /* presentation */
 .presentation-container{
-    background-color: darkkhaki;
+    background-color: #f2f4fa;
     margin-top: 10px;
+    padding: 20px;
+    float: left
+}
+
+.interface-address{
+    background-color: honeydew;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    height: 162px;
+    float: left;
+    overflow: hidden;
+}
+.interface-address#interface_1{
+    background-color: #7070E3;
+}
+.interface-address#interface_2{
+    background-color: #5A78F0;
+}
+.interface-address#interface_3{
+    background-color: #25B0E8;
+    
+}
+.block-content{
+    width: 180px;
+    margin: 15px;
+    margin-top:30px;
+    padding: 10px;
+    color: white;
+    float: right;
+}
+.block-content p {
+    word-break: break-all;
+    float: left;
+    padding-right: 5px;
+}
+.block-image{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    margin-top:50px;
+    float: left;
+}
+.block-image img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.header-presentation{
+    background-color: #f2f4fa;
+    height: 190px;
+}
+.container-flex{
+    background-color: white;
+    width: 660px;
+    height: 400px;
+    margin: 10px;
+    margin-top: 20px;
+    float:left;
+
+}
+
+.news{
+    background-color: white;
+    width: 280px;
+    height: 400px;
+    padding: 20px;
+    margin: 10px;
+    margin-top: 20px;
+    float:left;
+}
+
+
+/* footer */
+.footer{
+    background-color: #0B2840;
+    height: 50px;
 }
